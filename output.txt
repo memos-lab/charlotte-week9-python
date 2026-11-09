@@ -1,0 +1,16 @@
+Well: WELL-01
+Pressure: 17236.9 kPa
+Temperature: 60.0 °C
+Sensor active: True
+Well: WELL-01
+Pressure: 20684.3 kPa
+Temperature: 0.0 °C
+Sensor active: True
+Prediction was: 20684.3 kPa and 0.0 C - matches Python
+Rounding: Python calculated 20684.28 then rounded to 20684.3 for display
+--- Q11 ---
+Raw pressure type: <class 'str'>
+This line would fail if we run it:
+# print(raw_pressure * 6.89476)  # TypeError - cannot multiply str by float
+After float(): 3150.0
+Converted raw_pressure: 21718.5 kPa
