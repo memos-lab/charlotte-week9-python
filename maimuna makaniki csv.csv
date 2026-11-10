@@ -1,0 +1,4 @@
+Table,Non_unique,Key_name,Seq_in_index,Column_name,Collation,Cardinality,Sub_part,Packed,Null,Index_type,Comment,Index_comment,Visible,Expression
+employees,0,PRIMARY,1,employee_id,A,0,NULL,NULL,,BTREE,,,YES,NULL
+employees,0,email,1,email,A,0,NULL,NULL,,BTREE,,,YES,NULL
+employees,1,idx_employees_department,1,department,A,0,NULL,NULL,,BTREE,,,YES,NULL
