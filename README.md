@@ -1,0 +1,1 @@
+Skipped records are those with status != active or with an invalid pressure (None or negative), so they are not used in averages. A return value is data the function gives back to the caller to store or use later, while print only shows it on the screen and cannot be reused.
