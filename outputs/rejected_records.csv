@@ -1,0 +1,8 @@
+line_number,reason,raw_record
+7,Non-numeric pressure,2025-01-01T09:30:00 | WELL-101 | bad | psi | 210 | F | ACTIVE
+8,Unsupported pressure unit: bar,2025-01-01T09:45:00 | WELL-102 | 2500 | bar | 100 | C | ACTIVE
+9,Negative pressure,2025-01-01T10:00:00 | WELL-103 | -10 | psi | 150 | F | ACTIVE
+12,"Expected 7 fields, got 6",2025-01-01T10:45:00 | WELL-104 | 3000 | psi | 200 | F
+14,Non-numeric temperature,2025-01-01T11:15:00 | WELL-104 | 3000 | psi |  | F | ACTIVE
+18,Unsupported temperature unit: K,2025-01-01T12:15:00 | WELL-108 | 3000 | psi | 300 | K | ACTIVE
+20,Invalid status: PAUSED,2025-01-01T12:45:00 | WELL-101 | 3000 | psi | 200 | F | PAUSED
